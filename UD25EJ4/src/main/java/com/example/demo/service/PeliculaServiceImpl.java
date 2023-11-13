@@ -9,7 +9,7 @@ import com.example.demo.dao.IPeliculaDAO;
 import com.example.demo.dto.Pelicula;
 
 @Service
-public class PeliculaServiceImpl {
+public class PeliculaServiceImpl implements IPeliculaService {
 
 	@Autowired
 	IPeliculaDAO peliculaDAO;

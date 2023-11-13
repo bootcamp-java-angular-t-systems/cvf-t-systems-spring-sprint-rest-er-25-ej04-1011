@@ -9,7 +9,7 @@ import com.example.demo.dao.ISalaDAO;
 import com.example.demo.dto.Sala;
 
 @Service
-public class SalaServiceImpl {
+public class SalaServiceImpl implements ISalaService {
 
 	@Autowired
 	ISalaDAO salaDAO;
